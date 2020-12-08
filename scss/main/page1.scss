@@ -1,0 +1,31 @@
+@import './../basic/reset.scss';
+@import './../basic/fonts.scss';
+@import './../modules/classes.scss';
+@import './../modules/variable.scss';
+@import './../modules/mixins.scss';
+@import './../main/keyframes.scss';
+@import './../main/media.scss';
+
+
+.brba-header {
+    background-image: url(../../images/bb-background.jpg);
+    height: 100vh;
+    background-position: top;
+    background-size: cover;   
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0;
+    flex-wrap: wrap;
+}
+.main-nav-li {
+    margin:0 10px 10px 0;
+}
+.main-nav-txt {
+    font-size : $fontsize04;
+    color: $color03;
+    &:hover {
+        border-bottom: 2px solid $color03;   
+    }
+}    
