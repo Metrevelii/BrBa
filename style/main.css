@@ -75,7 +75,7 @@ table {
   border-spacing: 0; }
 
 .brba-header {
-  background-image: url(../../images/bb-background.jpg);
+  background-image: url(../images/bb-background.jpg);
   height: 100vh;
   background-position: top;
   background-size: cover; }
